@@ -1,0 +1,29 @@
+@mixin flexCenter($dir: row) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  @include flexCenter(column);
+
+  background: aqua;
+  button {
+    background: $primaryBtn;
+    position: relative;
+    &:hover {
+      background: red;
+    }
+    &::after {
+      content: "Hello";
+      //   position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  p {
+    color: red;
+  }
+}

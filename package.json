@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "- Preprocessing\r - Variables\r - Nesting\r - Partials\r - Modules\r - Mixins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlanZGit/Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlanZGit/Sass/issues"
+  },
+  "homepage": "https://github.com/PlanZGit/Sass#readme"
+}

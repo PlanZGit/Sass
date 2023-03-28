@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./variables";
+@import "./header";
+
+.contact {
+  @extend header;
+  background-color: aquamarine;
+
+  width: 100% - 20%;
+}

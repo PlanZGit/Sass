@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+header, .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: aqua;
+}
+header button, .contact button {
+  background: rgba(102, 255, 56, 0.897);
+  position: relative;
+}
+header button:hover, .contact button:hover {
+  background: red;
+}
+header button::after, .contact button::after {
+  content: "Hello";
+  top: 0;
+  left: 0;
+}
+header p, .contact p {
+  color: red;
+}
+
+.contact {
+  background-color: aquamarine;
+  width: 80%;
+}/*# sourceMappingURL=styles.css.map */
