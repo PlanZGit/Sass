@@ -1,6 +1,5 @@
-@import "./reset";
-@import "./variables";
-@import "./header";
+@use "./index" as *;
+@forward "./header";
 
 .contact {
   @extend header;

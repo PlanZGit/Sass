@@ -1,0 +1,7 @@
+@mixin flexCenter($dir: row) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

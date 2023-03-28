@@ -4,9 +4,20 @@ https://sass-lang.com/guide
 
 Live Sass Complier Extension.
 
+Simple Steps:
+
 1. write scss file
-2. generate css with sass live
+2. generate css with sass compiler
 3. link css to html
+
+# Topics
+
+- [Variables](#variables)
+- [Nesting](#nesting)
+- [Partials and Modules](#partials-and-modules)
+- [Mixins](#mixins)
+- [Extend/Inheritance](#extendinheritance)
+- [Operators](#operators)
 
 # Variables
 
@@ -53,7 +64,7 @@ Recommend using @import
     @import "./variables";
     @import "./header";
 
-@use - recommmend reading more on https://sass-lang.com/guide
+@use/@forward - recommmend reading more on https://sass-lang.com/guide
 
     @use 'base';
 
